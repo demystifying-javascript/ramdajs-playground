@@ -1,18 +1,37 @@
 {
   "name": "ramdajs-playground",
-  "displayName": "ramdajs-playground",
+  "displayName": "Ramda Js Playground",
   "description": "This extension will enable you to access the Ramda Js's playground, right in your VS Code Editor.",
   "version": "1.0.0",
+  "publisher": "demystifying-javascript",
+	"license": "MIT",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#f0efe7",
+		"theme": "light"
+	},
   "engines": {
     "vscode": "^1.76.0"
   },
-  "categories": [
-    "Other",
+  "keywords": [
+    "functional programming",
+    "functional js",
     "ramda",
     "ramda js",
     "playground",
-    "cheatsheet"
+    "cheatsheet",
+    "ramda js documentation"
   ],
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+		"url": "hhttps://github.com/demystifying-javascript/ramdajs-playground"
+	},
+	"homepage": "hhttps://github.com/demystifying-javascript/ramdajs-playground",
+	"bugs": {
+		"url": "hhttps://github.com/demystifying-javascript/ramdajs-playground/issues"
+	},
   "activationEvents": [
     "onCommand:ramdajs-playground.openPlayground"
   ],
