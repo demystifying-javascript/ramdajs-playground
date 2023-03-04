@@ -1,0 +1,44 @@
+{
+  "name": "ramdajs-playground",
+  "displayName": "ramdajs-playground",
+  "description": "This extension will enable you to access the Ramda Js's playground, right in your VS Code Editor.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Other",
+    "ramda",
+    "ramda js",
+    "playground",
+    "cheatsheet"
+  ],
+  "activationEvents": [
+    "onCommand:ramdajs-playground.openPlayground"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ramdajs-playground.openPlayground",
+        "title": "Open Ramda Js Playground"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.76.0",
+    "@types/glob": "^8.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "eslint": "^8.33.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4",
+    "@vscode/test-electron": "^2.2.2"
+  }
+}
