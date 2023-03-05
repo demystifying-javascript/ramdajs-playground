@@ -17,7 +17,7 @@ Open the Command Palette (Command+Shift+P on macOS and Ctrl+Shift+P on Windows/L
 
 ## Video
 
-![Demo Video](https://raw.githubusercontent.com/demystifying-javascript/ramdajs-playground/main/media/demo.mp4)
+<video src="https://raw.githubusercontent.com/demystifying-javascript/ramdajs-playground/main/media/demo.mp4"></video>
 
 ## Known Issues
 - When in side by side mode is used in the VS Code editor, the styling for the navigation header is broken, but is still workable by placing your cursor at a line no below that header.
