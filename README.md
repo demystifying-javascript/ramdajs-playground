@@ -12,12 +12,7 @@ Open the Command Palette (Command+Shift+P on macOS and Ctrl+Shift+P on Windows/L
 | Command                               | Description                                                                           |
 | ------------------------------------- | ------------------------------------------------------------------------------------- |
 | `Open Ramda Js Playground`            | Opens Ramda Js Playground in a tab.                                                   |
-| `Open Ramda Js Documentation`         | Opens Ramda Js Documentation in a tab.                                                  |
-
-
-## Video
-
-<video src="https://raw.githubusercontent.com/demystifying-javascript/ramdajs-playground/main/media/demo.mp4"></video>
+| `Open Ramda Js Documentation`         | Opens Ramda Js Documentation in a tab.                                                |
 
 ## Known Issues
 - When in side by side mode is used in the VS Code editor, the styling for the navigation header is broken, but is still workable by placing your cursor at a line no below that header.
